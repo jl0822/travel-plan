@@ -1,5 +1,5 @@
 class JsonWebToken
-    
+
     class << self
       def encode(payload, expiry = 24.hours.from_now)
         payload[:expiry] = expiry.to_i
@@ -15,4 +15,4 @@ class JsonWebToken
         nil
       end
     end
-  end
+end

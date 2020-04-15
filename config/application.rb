@@ -1,5 +1,3 @@
-config.autoload_paths <<  Rails.root.join("lib")
-
 require_relative 'boot'
 
 require 'rails/all'
@@ -19,3 +17,8 @@ module TravelPlan
     # the framework and any gems in your application.
   end
 end
+
+
+
+
+
