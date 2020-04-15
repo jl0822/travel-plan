@@ -1,4 +1,5 @@
 class Api::V1::TripsController < ActionController::API
+
     def index
       trips = Trip.all
       trips = trips.map do |trip|
@@ -8,6 +9,7 @@ class Api::V1::TripsController < ActionController::API
       render json: { results: trips }.to_json, status: :ok
     end
   end
+  
   config/routes.rb
   Rails.application.routes.draw do
     

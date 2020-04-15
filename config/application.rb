@@ -1,3 +1,5 @@
+config.autoload_paths <<  Rails.root.join("lib")
+
 require_relative 'boot'
 
 require 'rails/all'
